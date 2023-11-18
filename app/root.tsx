@@ -4,8 +4,10 @@ import {
   LiveReload,
   Meta,
   Scripts,
-  ScrollRestoration,
+  ScrollRestoration
 } from "@remix-run/react";
+
+import "./app.css";
 
 export default function App() {
   return (
@@ -45,7 +47,6 @@ export default function App() {
             </ul>
           </nav>
         </div>
-
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

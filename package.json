@@ -3,8 +3,8 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
+    "build": "vite build && vite build --ssr",
+    "dev": "vite dev",
     "start": "remix-serve build",
     "typecheck": "tsc"
   },
@@ -25,7 +25,9 @@
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.47.0",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "vite": "^5.0.0",
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "engines": {
     "node": ">=18.0.0"
